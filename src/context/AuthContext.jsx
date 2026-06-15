@@ -11,8 +11,8 @@ export const AuthProvider = ({ children }) => {
   const [token, setToken] = useState(localStorage.getItem('token'));
   const [loading, setLoading] = useState(true);
 
-  const API_URL = '/api';
-
+  // const API_URL = '/api';
+const API_URL = 'https://billpak.runasp.net/api';
   useEffect(() => {
     if (token) {
       axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
