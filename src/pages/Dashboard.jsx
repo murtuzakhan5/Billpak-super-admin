@@ -28,8 +28,8 @@ export default function Dashboard() {
 
   const { token } = useAuth();
 
-  const API_URL = '/api';
-  // const API_URL = 'https://billpak.runasp.net/api';
+  // const API_URL = '/api';
+  const API_URL = 'https://billpak.runasp.net/api';
   // const API_URL = 'https://localhost:7246/api';
 
   const headers = {

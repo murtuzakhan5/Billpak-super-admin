@@ -5,7 +5,9 @@ import toast from 'react-hot-toast';
 
 export default function Plans() {
   const { token } = useAuth();
-  const API_URL = '/api';
+  // const API_URL = '/api';
+const API_URL = 'https://billpak.runasp.net/api';
+
 
   const [plans, setPlans] = useState([]);
   const [modules, setModules] = useState([]);

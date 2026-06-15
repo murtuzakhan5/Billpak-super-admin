@@ -40,7 +40,8 @@ export default function Restaurants() {
   });
 
   const { token } = useAuth();
-  const API_URL = '/api';
+  // const API_URL = '/api';
+  const API_URL = 'https://billpak.runasp.net/api';
 
   const headers = {
     Authorization: `Bearer ${token}`,

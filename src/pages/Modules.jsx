@@ -10,7 +10,8 @@ import {
 
 export default function Modules() {
   const { token } = useAuth();
-  const API_URL = '/api';
+  // const API_URL = '/api';
+  const API_URL = 'https://billpak.runasp.net/api';
 
   const [modules, setModules] = useState([]);
   const [filteredModules, setFilteredModules] = useState([]);
